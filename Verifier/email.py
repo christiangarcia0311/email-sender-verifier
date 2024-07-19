@@ -21,7 +21,7 @@ class EmailSender:
     
     # Email configuration
     self.default_app_email = 'default03112003@gmail.com'
-    self.default_app_pswd = 'kpkf nqkh rcbj hwqm'
+    self.default_app_code = 'kpkf nqkh rcbj hwqm'
     
   def send_email(self, email_reciever, msg_subject, msg_body, sender_name):
     
@@ -36,8 +36,7 @@ class EmailSender:
     try:
       server = smtplib.SMTP(self.smtp_server, self.smtp_port)
       server.starttls()
-      server.login(self.default_app_email,
-      self.default_app_pswd)
+      server.login(self.default_app_email, self.default_app_code)
       server.sendmail(self.default_app_email, email_reciever, message.as_string())
       print('Email send successfully!')
     except Exception as e:

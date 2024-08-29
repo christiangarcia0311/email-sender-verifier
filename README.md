@@ -92,13 +92,7 @@ CLI:
 
 ```
 
-> Example 3 (web-based otp verification using email sender):
-
-![web-based](images/web-based.png)
-
-- https://defaultapp11.pythonanywhere.com/
-
-> Example 4 default sending:
+> Example 3 default sending:
 
 ```python
     email_reciever = 'reciever@gmail.com'

@@ -26,6 +26,13 @@ CLI:
 - Email Sending: Send emails with customizable subject, body and recipient.
 - Easy Integration: Suitable for integration into web applications requiring email-based OTP and code verification.
 
+## API
+
+We added a simple email sender API using flask. The API allows other application to send email to users by making HTTP requests. It is designed to be easily integrated with other programming language/application or any other platform that can send HTTP requests.
+
+
+EmailSender API: [Click here!](http://emailsender000.pythonanywhere.com/)
+
 ## Usage
 
 > Email Sender class import:
@@ -56,6 +63,7 @@ CLI:
     emailsender.send_email(email_reciever, msg_subject, msg_body, sender_name)
 
 ```
+
 
 > Example 1 (Sending sample message):
 

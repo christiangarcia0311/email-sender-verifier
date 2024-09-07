@@ -33,6 +33,10 @@ We added a simple email sender API using flask. The API allows other application
 
 EmailSender API: [Click here!](http://emailsender000.pythonanywhere.com/)
 
+
+> if you have an issue while opening the link please [contact me.](mailto:emailsender880@gmail.com)
+
+
 ## Usage
 
 > Email Sender class import:
@@ -73,7 +77,7 @@ EmailSender API: [Click here!](http://emailsender000.pythonanywhere.com/)
     email = 'username@gmail.com'
     subject = 'Sending email message using python.'
     body = 'This is example message from the author'
-    name = 'Administrator'
+    name = 'EmailSender'
     
     # email sender method
     emailsender.send_email(email, subject, body, name)
@@ -94,7 +98,7 @@ EmailSender API: [Click here!](http://emailsender000.pythonanywhere.com/)
     email = 'username@gmail.com'
     subject = 'One-Time-Password using pyotp library'
     body = f'Your OTP code is: {totp.now()}'
-    name = 'Admin'
+    name = 'EmailSender'
     #email sender method
     emailsender.send_email(email, subject, body, name)
 

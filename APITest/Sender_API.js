@@ -1,3 +1,6 @@
+// install required package.
+// $ npm install axios
+
 const axios = require('axios');
 
 async function sendEmail(reciever) {

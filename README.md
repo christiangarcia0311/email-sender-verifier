@@ -33,6 +33,7 @@ We added a simple email sender API using flask. The API allows other application
 
 EmailSender API: [Click here!](http://emailsender000.pythonanywhere.com/)
 
+API Test Example sending HTTP request: [API Sample](https://github.com/christiangarcia0311/email-sender-verifier/raw/main/APITest/EmailSender_API.js)
 
 > if you have an issue while opening the link please [contact me.](mailto:emailsender880@gmail.com)
 

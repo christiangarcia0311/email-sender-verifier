@@ -121,8 +121,7 @@ API Test Example sending HTTP request: [API Sample](https://github.com/christian
 
 ## Author
 
-![Static Badge](https://img.shields.io/badge/Christian-Garcia-orange?logo=Github&link=https%3A%2F%2Fgithub.com%2Fchristiangarcia0311)
-
+<img alt="Static Badge" src="https://img.shields.io/badge/Christian-Garcia-orange?logo=github">
 
 ## Contact
 

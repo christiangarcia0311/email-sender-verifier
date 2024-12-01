@@ -1,6 +1,6 @@
-![Static Badge](https://img.shields.io/badge/pypi-v.2.2.0-blue)
-![Static Badge](https://img.shields.io/badge/smtplib-v.3.12.4-green?link=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Fsmtplib.html)
-![Static Badge](https://img.shields.io/badge/email-v.4.0.2-brown?link=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Femail.html)
+![Static Badge](https://img.shields.io/badge/pypi-v.2.2.0-blue?style=for-the-badge) 
+![Static Badge](https://img.shields.io/badge/smtplib-v.3.12.4-green?style=for-the-badge&link=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Fsmtplib.html)
+![Static Badge](https://img.shields.io/badge/email-v.4.0.2-brown?style=for-the-badge&link=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Femail.html)
 
 
 # Email Sender Verifier
@@ -117,11 +117,11 @@ API Test Example sending HTTP request: [API Sample](https://github.com/christian
 
 ## LICENSE
 
-![Static Badge](https://img.shields.io/badge/MIT-License-blue?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchristiangarcia0311%2Femail-sender-verification%2Fmain%2FLICENSE)
+![Static Badge](https://img.shields.io/badge/MIT-License-blue?style=for-the-badge&link=https%3A%2F%2Fraw.githubusercontent.com%2Fchristiangarcia0311%2Femail-sender-verification%2Fmain%2FLICENSE)
 
 ## Author
 
-<img alt="Static Badge" src="https://img.shields.io/badge/Christian-Garcia-orange?logo=github">
+<img alt="Static Badge" src="https://img.shields.io/badge/Christian-Garcia-orange?style=for-the-badge&logo=github">
 
 ## Contact
 

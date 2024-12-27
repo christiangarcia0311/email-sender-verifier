@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/pypi-v.2.2.0-blue?style=for-the-badge) 
+![Static Badge](https://img.shields.io/badge/pypi-v.2.3.4-blue?style=for-the-badge) 
 ![Static Badge](https://img.shields.io/badge/smtplib-v.3.12.4-green?style=for-the-badge&link=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Fsmtplib.html)
 ![Static Badge](https://img.shields.io/badge/email-v.4.0.2-brown?style=for-the-badge&link=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Femail.html)
 
@@ -18,7 +18,7 @@ CLI:
 ```
 
 ```bash
-   pip install https://github.com/christiangarcia0311/email-sender-verifier/raw/main/dist/email_sender_verifier-2.2.0.tar.gz
+   pip install https://github.com/christiangarcia0311/email-sender-verifier/raw/main/dist/email_sender_verifier-2.3.4.tar.gz
 ```
 
 ## Features
@@ -46,9 +46,12 @@ API Test Example sending HTTP request: [API Sample](https://github.com/christian
     
     # import email sender class
     from Verifier.email import EmailSender
-    
-    # create new email sender object
-    emailsender = EmailSender()
+
+    # Your Valid API Key
+    API_KEY = 'your_api_key' 
+
+    # Initialize email sender class
+    emailsender = EmailSender(API_KEY)
 
 ```
 
@@ -65,7 +68,12 @@ API Test Example sending HTTP request: [API Sample](https://github.com/christian
     """
     
     # email sender method
-    emailsender.send_email(email_reciever, msg_subject, msg_body, sender_name)
+    emailsender.send_email(
+            email_reciever,
+            msg_subject,
+            msg_body,
+            sender_name
+    )
 
 ```
 

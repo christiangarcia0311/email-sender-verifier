@@ -30,12 +30,9 @@ CLI:
 
 We added a simple email sender API using flask. The API allows other application to send email to users by making HTTP requests. It is designed to be easily integrated with other programming language/application or any other platform that can send HTTP requests.
 
+## LATEST UPDATE v.2.3.4
 
-EmailSender API: [Click here!](http://emailsender000.pythonanywhere.com/)
-
-API Test Example sending HTTP request: [API Sample](https://github.com/christiangarcia0311/email-sender-verifier/raw/main/APITest/EmailSender_API.js)
-
-> if you have an issue while opening the link please [contact me.](mailto:emailsender880@gmail.com)
+Visit [Email Sender API](http://emailsender000.pythonanywhere.com/) and get your `API` key.
 
 
 ## Usage
